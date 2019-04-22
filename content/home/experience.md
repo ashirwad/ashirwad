@@ -2,14 +2,14 @@
 active: true
 date_format: Jan 2006
 experience:
-- company: GenCoin
-  company_url: ""
+- company: Institute for Transportation (InTrans)
+  company_url: "https://intrans.iastate.edu/"
   date_end: ""
-  date_start: "2017-01-01"
+  date_start: "2015-08-20"
   description: "  Responsibilities include:\n  \n  * Analysing\n  * Modelling\n  *
     Deploying\n  "
-  location: California
-  title: CEO
+  location: Ames
+  title: Graduate Research Assistant
 - company: University X
   company_url: ""
   date_end: "2016-12-31"
