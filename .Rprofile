@@ -7,5 +7,6 @@ options(
   # blogdown options
   blogdown.ext = ".Rmd", # default post format
   blogdown.author = "Ashirwad Barnwal",
-  blogdown.hugo.dir = paste0(path.expand("~"), "/hugo") # hugo executable dir
+  blogdown.hugo.dir = path.expand("~/hugo") # hugo executable dir
 )
+
