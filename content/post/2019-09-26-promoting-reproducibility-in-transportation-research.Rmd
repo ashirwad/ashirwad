@@ -1,0 +1,55 @@
+---
+title: Promoting reproducibility in transportation research
+author: Ashirwad Barnwal
+date: '2019-09-26'
+slug: promoting-reproducibility-in-transportation-research
+categories:
+  - personal
+tags:
+  - fellowship
+  - essay
+subtitle: ''
+summary: ''
+authors: []
+lastmod: '2019-09-26T17:25:31-05:00'
+featured: no
+image:
+  caption: ''
+  focal_point: ''
+  preview_only: no
+projects: []
+---
+
+[Research Data Alliance](https://rd-alliance.org/) (RDA) is an international organization created with support from the U.S. and European agencies to standardize data practices and enable data sharing without barriers. I was first introduced to RDA when one of the PhD students from our research group won the coveted [RDA project fellowship](https://us.rd-alliance.org/applications-joint-wt-rdaus-early-career-fellowship-program). Since my ultimate goal is to join the data science workforce, I immediately got attracted toward the organization and decided to submit my application for the 2018 project fellowship award. Although I didn't receive the project fellowship, my application was selected for the travel fellowship that enabled me to attend the RDA 13th plenary, April 2-4, in Philadelphia.
+
+As RDA is all about openness, I decided to share the essay (see the following paragraphs) that I submitted with my application to help potential applicants with their essay preparation. Follow [this link](https://us.rd-alliance.org/applications-joint-wt-rdaus-early-career-fellowship-program) to learn about the essay structure and other pertinent information about the fellowship.
+
+>“Reproducibility refers to the ability of a researcher to duplicate the results of a prior study using the same materials as were used by the original investigator.” – U.S. National Science Foundation
+
+## A case study of fraud in cancer care
+A few months ago, I was reading a [blog post from Yihui Xie](https://yihui.name/en/2012/06/enjoyable-reproducible-research/) a fellow Cyclone, on how to use knitr, an R package that he created to make reproducible research (RR) enjoyable. In his blog, he briefly mentioned the Duke scandal in which a geneticist altered the data to produce spurious results. This blog post got me interested in learning more about the scandal. Back in 2006, Dr. Anil Potti, a former Duke University cancer researcher, created a sensation when he published several papers in top medical journals, such as Nature Medicine, claiming to have discovered a process to prescribe customized chemotherapy treatments to patients according to their genetic profiles. Dr. Potti’s novel research was described as the holy grail of cancer care, until two biostatisticians, Baggerly and Coombes, from the University of Texas M.D. Anderson Cancer Center, could not reproduce Potti’s results. In 2010, after years of investigation, Potti’s genomic trials turned out to be fraudulent, raising serious questions about how Potti was able to deceive the best medical journals and a great university in the first place. The experts later realized that reproducing the results before publishing Potti’s findings could have prevented him from orchestrating one of the biggest medical research frauds ever.
+
+Watch the video to learn more about the Duke scandal.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eV9dcAGaVU8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Current state of reproducible research
+Since the Duke scandal surfaced in 2010, research journals have increasingly recognized the importance of RR and have supported the idea of submitting the manuscript as well as the data and computer code that was used to produce the results. In the preface to [The Practice of Reproducible Research](https://www.scribd.com/book/358412742/The-Practice-of-Reproducible-Research-Case-Studies-and-Lessons-from-the-Data-Intensive-Sciences), P.B. Stark has emphasized the need for reproducibility:
+
+>“If researchers do not make their code available, there is little hope of ever knowing what was done to the data, much less assessing whether it was the right thing to do.”
+
+With the availability of voluminous data sets, data analyses are becoming more complex and often play an outsized role in supporting the ultimate conclusions, making reproducibility even more important. Although the need for RR has gained momentum over the last decade, the reproducibility crisis still exists in science. Yihui Xie in his blog post, which I mentioned before, has identified two main reasons why RR has not taken off: (a) tools used in RR require considerable level of expertise, and (b) copy and paste is still prevalent. Another reason for the limited penetration of reproducibility in research is the lack of awareness about the importance of RR. For example, I have been a researcher for over 3 years now, but I was never formally introduced the concept of RR and how I can incorporate reproducibility into my existing research workflow.
+
+## Project proposal
+Over the past years, big data has emerged as a defining force in the future of transportation, logistics and supply chain. It has enabled real time route optimization, strategic network planning, crowd-based pickup and delivery, operational capacity planning, and others. Given the increasing use of data and analytics to inform efficient transportation operations strategies, it is critically important that the data analyses used to underpin the conclusions can be successfully repeated. However, the tools that are required for RR are not taught to transportation professionals in their regular classroom setting. Consequently, to complement their skills in RR, this project aims to create a report titled, “Introduction to Reproducible Research for Transportation Professionals,” that will provide step-by-step tutorials on how to use different tools such as [Git](https://git-scm.com/) (for version control), [knitr](https://yihui.name/knitr/) (for literate computing), and [shell scripts](https://en.wikipedia.org/wiki/Shell_script) (for automation) that are typically found in the toolbox for RR. In addition, the report will also document the best practices and recommendations that will help transportation researchers streamline their reproducibility efforts.
+
+Given my inclination toward reproducibility, I wish to work with the [data versioning group](https://www.rd-alliance.org/groups/data-versioning-wg) to help them with their efforts to standardize the data versioning practices. As a group we can also explore how we can leverage open source projects, such as [data version control](https://dvc.org/), that are specifically designed to bring reproducibility into data science workflows. Moreover, the [Open Science Infrastructure (OSI) group](https://github.com/whole-tale/whole-tale/tree/master/working_groups/open-infrastructure) also fascinates me with the idea of publishing composite research objects instead of just the manuscript. A web application called [Open Science Framework](https://osf.io/) incorporates the ideas discussed in the OSI group; however, it leaves ample room for improvements, giving OSI group an opportunity to contribute to their development.
+
+##  Career trajectory
+As an aspiring data scientist, I always try to surround myself with data science projects that provide me with opportunities to hone my data analysis skills. Over the course of my master’s program, which I completed in the summer of 2017, I led a project that focused on the development of guideline to assist the Iowa Department of Transportation (DOT) in determining the most cost-effective crash cushions, a type of roadside safety treatment, to protect motorists from striking roadside fixed objects. This project involved an assessment of various highway scenarios and consideration of how crash risk varies with respect to roadway, roadside and traffic characteristics. In addition to leading this study, I also assisted in a diverse range of additional projects across various traffic safety topics, most of which involved the development of crash prediction models.
+
+In fall 2017, I embarked on a PhD in Civil Engineering (Transportation), with a concurrent Masters in Statistics and a Minor in Computer Science, and joined Dr. Anuj Sharma’s research group at Iowa State University. Over the first year of my PhD studies, I have been leading a winter maintenance project to develop a data visualization tool for the Iowa DOT to serve two major purposes: (a) provide insights into how well the winter resources have been utilized so far, and (b) propose changes in current practices relating to resource planning to optimize winter resource utilization. In another project, I am utilizing the computer vision data to analyze how the cognitive and sensory decline in older drivers affect their ability to navigate through yellow light dilemma zones.
+
+Apart from working on research projects, I have also completed a number of courses, in areas such as: object-oriented programming; data structures; probability and statistics; and large-scale data analysis. These courses have complemented my coursework, providing me with important insights as to how my work may serve to impact data science practice. Ultimately, I aim to complete my doctoral studies and join the data science workforce, where I will have the opportunity to develop easy-to-use tools for RR to enable researchers, both novice and expert, to incorporate reproducibility in their research with ease. If given the opportunity to work on the proposed project, I will not only help myself and fellow transportation researchers to become proficient in RR, but also establish myself as a competent data scientist.
+
+Thanks for reading it to the end! Also, if you have any feedback, please do share it with me.
