@@ -1,6 +1,4 @@
-#### -- Packrat Autoloader (version 0.5.0) -- ####
-source("packrat/init.R")
-#### -- End Packrat Autoloader -- ####
+source("renv/activate.R")
 
 # Set global options
 options(
@@ -10,4 +8,3 @@ options(
   blogdown.hugo.dir = path.expand("~/hugo"), # hugo executable dir
   blogdown.new_bundle = TRUE # use page bundles to organize contents
 )
-
