@@ -2,7 +2,7 @@
 title: "Sugar and Stops in Drivers with Insulin-Dependent Type 1 Diabetes"
 date: "2021-04-08"
 authors:
-  - "Ashirwad Barnwal"
+  - "**Ashirwad Barnwal**"
   - "Pranamesh Chakraborty"
   - "Anuj Sharma"
   - "Luis Riera-Garcia"
@@ -47,8 +47,22 @@ abstract: >
 publication_types: [3]
 publication: "*Submitted to Accident Analysis & Prevention*"
 # doi:
+
+tags:
+  - "naturalistic driving"
+  - "unsafe stopping"
+  - "driver risk"
+  - "type 1 diabetes"
+  - "hypoglycemia"
+  - "hyperglycemia"
   
 links:
   - name: "Preprint PDF"
     url: "https://arxiv.org/abs/2104.03735"
+    icon: "arxiv"
+    icon_pack: "ai"
+  - name: "Google Scholar"
+    url: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=WN6gbSQAAAAJ&citation_for_view=WN6gbSQAAAAJ:2osOgNQ5qMEC"
+    icon: "google-scholar"
+    icon_pack: "ai"
 ---
